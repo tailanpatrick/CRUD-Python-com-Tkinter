@@ -120,6 +120,7 @@ def atualizar():
         # Botão Confirmar Atualização
         b_confirmar = Button(frame_baixo, command=update, text='Confirmar Alteração', width=15,bg=co2, fg=co1, relief='raised',overrelief='ridge')
         b_confirmar.place(x=100, y=200)
+        b_confirmar.destroy();
         
 
     except IndexError:
